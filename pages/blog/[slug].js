@@ -41,7 +41,6 @@ export default function Post ({
           <Image
             key={eyecatch.url}
             src={eyecatch.url}
-            height={eyecatch.height}
             alt=''
             layout='responsive'
             width={eyecatch.width}
