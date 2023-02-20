@@ -9,7 +9,7 @@ import { getPlaiceholder } from 'plaiceholder'
 // ローカルの代替アイキャッチ画像
 import { eyecatchLocal } from 'lib/constants'
 
-export default function Home () {
+export default function Home ({ posts }) {
   return (
     <Container>
       <Meta />
