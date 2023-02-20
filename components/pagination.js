@@ -16,6 +16,7 @@ export default function Pagination ({
           <Link legacyBehavior href={prevUrl}>
             <a className={styles.iconText}>
               <FontAwesomeIcon icon={faChevronLeft} color='var(--gray-25)' />
+              <span>{prevText}</span>
             </a>
           </Link>
         </li>
@@ -25,7 +26,7 @@ export default function Pagination ({
           <Link legacyBehavior href={nextUrl}>
             <a className={styles.iconText}>
               <span>{nextText}</span>
-              <FontAwesomeIcon icon={faChevronRight} color='var(--gray-25)' />)
+              <FontAwesomeIcon icon={faChevronRight} color='var(--gray-25)' />
             </a>
           </Link>
         </li>

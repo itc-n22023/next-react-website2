@@ -24,7 +24,7 @@ export default function Nav () {
               width: 100%
             }
           }
-        `}</style>
+      `}</style>
       )}
       <button className={styles.btn} onClick={toggleNav}>
         <span className={styles.bar}></span>

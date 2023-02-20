@@ -43,7 +43,7 @@ export default function Meta ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH
       <link rel='icon' href={siteIcon} />
       <link rel='apple-touch-icon' href={siteIcon} />
 
-      <meta property='og:imagef' content={imgUrl} />
+      <meta property='og:image' content={imgUrl} />
       <meta property='og:image:width' content={imgW} />
       <meta property='og:image:height' content={imgH} />
       <meta name='twitter:card' content='summary_large_image' />
