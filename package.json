@@ -26,5 +26,21 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "^0.31.3"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itc-n22023/next-react-website2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itc-n22023/next-react-website2/issues"
+  },
+  "homepage": "https://github.com/itc-n22023/next-react-website2#readme"
 }
